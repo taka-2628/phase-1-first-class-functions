@@ -2,10 +2,10 @@ function receivesAFunction(callback){
     callback ()
 }
 
-receivesAFunction(function () {return "joking"});
+receivesAFunction(function () {return "Joking"});
 
 function returnsANamedFunction(){
-    return (function camel() {"Joking"})
+    return (function aNamedFunction() {"Joking"})
 }
 
 function returnsAnAnonymousFunction(){
